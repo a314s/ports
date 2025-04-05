@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port Monitor Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Port Monitor Dashboard</h1>
+            <button id="refresh-btn" class="btn primary">Refresh</button>
+        </header>
+        
+        <main>
+            <div class="stats-container">
+                <div class="stat-card">
+                    <h3>Total Active Ports</h3>
+                    <p id="total-ports">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>TCP Connections</h3>
+                    <p id="tcp-count">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>UDP Connections</h3>
+                    <p id="udp-count">0</p>
+                </div>
+            </div>
+
+            <div class="filter-container">
+                <input type="text" id="search-input" placeholder="Search by port, process, or address...">
+                <select id="protocol-filter">
+                    <option value="all">All Protocols</option>
+                    <option value="tcp">TCP</option>
+                    <option value="udp">UDP</option>
+                </select>
+                <select id="sort-by">
+                    <option value="port">Sort by Port</option>
+                    <option value="process">Sort by Process</option>
+                    <option value="state">Sort by State</option>
+                </select>
+            </div>
+
+            <div class="table-container">
+                <table id="ports-table">
+                    <thead>
+                        <tr>
+                            <th>Protocol</th>
+                            <th>Local Address</th>
+                            <th>Port</th>
+                            <th>Remote Address</th>
+                            <th>State</th>
+                            <th>PID</th>
+                            <th>Process</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ports-list">
+                        <!-- Port data will be inserted here -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="loading-overlay">
+                <div class="spinner"></div>
+                <p>Loading port information...</p>
+            </div>
+        </main>
+
+        <div id="notification" class="notification">
+            <p id="notification-message"></p>
+            <button id="close-notification">×</button>
+        </div>
+
+        <div id="confirmation-modal" class="modal">
+            <div class="modal-content">
+                <h2>Confirm Action</h2>
+                <p id="confirmation-message"></p>
+                <div class="modal-buttons">
+                    <button id="cancel-action" class="btn secondary">Cancel</button>
+                    <button id="confirm-action" class="btn danger">Confirm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,4349 @@
+﻿[
+    {
+        "protocol":  "TCP",
+        "localAddress":  "::",
+        "port":  52061,
+        "remoteAddress":  ":::0",
+        "state":  2,
+        "pid":  14268,
+        "processName":  "Windsurf"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "::",
+        "port":  49690,
+        "remoteAddress":  ":::0",
+        "state":  2,
+        "pid":  1692,
+        "processName":  "services"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "::1",
+        "port":  49674,
+        "remoteAddress":  ":::0",
+        "state":  2,
+        "pid":  9476,
+        "processName":  "jhi_service"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "::",
+        "port":  49671,
+        "remoteAddress":  ":::0",
+        "state":  2,
+        "pid":  2456,
+        "processName":  "spoolsv"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "::",
+        "port":  49667,
+        "remoteAddress":  ":::0",
+        "state":  2,
+        "pid":  3512,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "::",
+        "port":  49666,
+        "remoteAddress":  ":::0",
+        "state":  2,
+        "pid":  2648,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "::",
+        "port":  49665,
+        "remoteAddress":  ":::0",
+        "state":  2,
+        "pid":  1600,
+        "processName":  "wininit"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "::",
+        "port":  49664,
+        "remoteAddress":  ":::0",
+        "state":  2,
+        "pid":  1804,
+        "processName":  "lsass"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "fe80::7010:4532:7461:897b%4",
+        "port":  38895,
+        "remoteAddress":  ":::0",
+        "state":  2,
+        "pid":  21116,
+        "processName":  "qbittorrent"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "::1",
+        "port":  38895,
+        "remoteAddress":  ":::0",
+        "state":  2,
+        "pid":  21116,
+        "processName":  "qbittorrent"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "::",
+        "port":  28198,
+        "remoteAddress":  ":::0",
+        "state":  2,
+        "pid":  18516,
+        "processName":  "StreamDeck"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "::",
+        "port":  9799,
+        "remoteAddress":  ":::0",
+        "state":  2,
+        "pid":  29888,
+        "processName":  "node20"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "::",
+        "port":  8096,
+        "remoteAddress":  ":::0",
+        "state":  2,
+        "pid":  32808,
+        "processName":  "EmbyServer"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "::",
+        "port":  7680,
+        "remoteAddress":  ":::0",
+        "state":  2,
+        "pid":  30460,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "::1",
+        "port":  7679,
+        "remoteAddress":  ":::0",
+        "state":  2,
+        "pid":  30448,
+        "processName":  "GoogleDriveFS"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "::",
+        "port":  5357,
+        "remoteAddress":  ":::0",
+        "state":  2,
+        "pid":  4,
+        "processName":  "System"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "::",
+        "port":  3002,
+        "remoteAddress":  ":::0",
+        "state":  2,
+        "pid":  41816,
+        "processName":  "node"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "::",
+        "port":  3001,
+        "remoteAddress":  ":::0",
+        "state":  2,
+        "pid":  2884,
+        "processName":  "node"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "::",
+        "port":  2869,
+        "remoteAddress":  ":::0",
+        "state":  2,
+        "pid":  4,
+        "processName":  "System"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "::",
+        "port":  1844,
+        "remoteAddress":  ":::0",
+        "state":  2,
+        "pid":  32596,
+        "processName":  "ElgatoAudioControlServer"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "::",
+        "port":  445,
+        "remoteAddress":  ":::0",
+        "state":  2,
+        "pid":  4,
+        "processName":  "System"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "::",
+        "port":  135,
+        "remoteAddress":  ":::0",
+        "state":  2,
+        "pid":  1220,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  65139,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  65057,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  30448,
+        "processName":  "GoogleDriveFS"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  65036,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  30448,
+        "processName":  "GoogleDriveFS"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  65035,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  30448,
+        "processName":  "GoogleDriveFS"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  65025,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  31172,
+        "processName":  "chrome"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  64726,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  31172,
+        "processName":  "chrome"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  64576,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  14268,
+        "processName":  "Windsurf"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  64573,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  63963,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  20256,
+        "processName":  "SystemSettings"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  63077,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  15808,
+        "processName":  "SearchHost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  63076,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  15808,
+        "processName":  "SearchHost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  63074,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  15808,
+        "processName":  "SearchHost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  63071,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  15808,
+        "processName":  "SearchHost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  63054,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  15808,
+        "processName":  "SearchHost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  63052,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  15808,
+        "processName":  "SearchHost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  63037,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  31156,
+        "processName":  "iCloudDrive"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  63036,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  15808,
+        "processName":  "SearchHost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  63034,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  15808,
+        "processName":  "SearchHost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  63029,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  15808,
+        "processName":  "SearchHost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  63027,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  15808,
+        "processName":  "SearchHost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  62326,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  8080,
+        "processName":  "python3.12"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  62324,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  8080,
+        "processName":  "python3.12"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  61689,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  14268,
+        "processName":  "Windsurf"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  61686,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  59274,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  13768,
+        "processName":  "iCloudCKKS"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  53676,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  53673,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  53672,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  53671,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  53670,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  53669,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  53668,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  53667,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  53666,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  53665,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  53664,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  53663,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  53662,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  53661,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  53660,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  53659,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  53572,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  30448,
+        "processName":  "GoogleDriveFS"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  53528,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  53450,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  53201,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  30448,
+        "processName":  "GoogleDriveFS"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  53138,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  53134,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  30448,
+        "processName":  "GoogleDriveFS"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  53084,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  39308,
+        "processName":  "backgroundTaskHost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  53082,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  39308,
+        "processName":  "backgroundTaskHost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  52362,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  52318,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  29344,
+        "processName":  "OneDrive"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  52316,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  29344,
+        "processName":  "OneDrive"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  52218,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  52096,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  37856,
+        "processName":  "Windsurf"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  52094,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  37856,
+        "processName":  "Windsurf"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  52093,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  37856,
+        "processName":  "Windsurf"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  52080,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  52070,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  14268,
+        "processName":  "Windsurf"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  51385,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  37856,
+        "processName":  "Windsurf"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50934,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50678,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  31172,
+        "processName":  "chrome"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50662,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  28100,
+        "processName":  "iCloudHome"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50659,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  7996,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50653,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  30448,
+        "processName":  "GoogleDriveFS"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50648,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  28100,
+        "processName":  "iCloudHome"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50646,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  23848,
+        "processName":  "APSDaemon"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50617,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  13408,
+        "processName":  "nvcontainer"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50559,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  21116,
+        "processName":  "qbittorrent"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50549,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  28100,
+        "processName":  "iCloudHome"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50387,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  28100,
+        "processName":  "iCloudHome"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50370,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  13768,
+        "processName":  "iCloudCKKS"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50271,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  27856,
+        "processName":  "iCloudPhotos"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50268,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  27856,
+        "processName":  "iCloudPhotos"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50267,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  27856,
+        "processName":  "iCloudPhotos"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50266,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  27856,
+        "processName":  "iCloudPhotos"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50265,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  27856,
+        "processName":  "iCloudPhotos"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50255,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  31156,
+        "processName":  "iCloudDrive"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50252,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  27856,
+        "processName":  "iCloudPhotos"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50250,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  31156,
+        "processName":  "iCloudDrive"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50247,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  31156,
+        "processName":  "iCloudDrive"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50246,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  31156,
+        "processName":  "iCloudDrive"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50243,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  31156,
+        "processName":  "iCloudDrive"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50241,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  13768,
+        "processName":  "iCloudCKKS"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50240,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  13768,
+        "processName":  "iCloudCKKS"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50238,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  13768,
+        "processName":  "iCloudCKKS"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50237,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  13768,
+        "processName":  "iCloudCKKS"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50236,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  13768,
+        "processName":  "iCloudCKKS"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50226,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  13768,
+        "processName":  "iCloudCKKS"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50198,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  18516,
+        "processName":  "StreamDeck"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50071,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  29952,
+        "processName":  "node20"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50063,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  33272,
+        "processName":  "AppleMobileDeviceProcess"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  50062,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  33272,
+        "processName":  "AppleMobileDeviceProcess"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49997,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  18516,
+        "processName":  "StreamDeck"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49947,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  29952,
+        "processName":  "node20"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49945,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  29888,
+        "processName":  "node20"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49937,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  18516,
+        "processName":  "StreamDeck"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49927,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  18516,
+        "processName":  "StreamDeck"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49904,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  31156,
+        "processName":  "iCloudDrive"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49895,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  22940,
+        "processName":  "asus_framework"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49882,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  6204,
+        "processName":  "AcPowerNotification"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49874,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  6184,
+        "processName":  "asus_framework"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49873,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  6184,
+        "processName":  "asus_framework"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49872,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  12060,
+        "processName":  "asus_framework"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49871,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  12060,
+        "processName":  "asus_framework"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49860,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  5464,
+        "processName":  "ArmourySocketServer"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49810,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  11700,
+        "processName":  "ArmouryCrate.UserSessionHelper"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49804,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  8052,
+        "processName":  "LightingService"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49778,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  8052,
+        "processName":  "LightingService"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49693,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  11700,
+        "processName":  "ArmouryCrate.UserSessionHelper"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49689,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  7896,
+        "processName":  "ROGLiveService"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49272,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  100,
+        "pid":  27856,
+        "processName":  "iCloudPhotos"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  65139,
+        "remoteAddress":  "35.223.238.178:443",
+        "state":  5,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  65057,
+        "remoteAddress":  "142.250.75.74:443",
+        "state":  8,
+        "pid":  30448,
+        "processName":  "GoogleDriveFS"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  65036,
+        "remoteAddress":  "142.250.75.42:443",
+        "state":  8,
+        "pid":  30448,
+        "processName":  "GoogleDriveFS"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  65035,
+        "remoteAddress":  "142.250.75.42:443",
+        "state":  8,
+        "pid":  30448,
+        "processName":  "GoogleDriveFS"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  65025,
+        "remoteAddress":  "127.0.0.1:3000",
+        "state":  5,
+        "pid":  31172,
+        "processName":  "chrome"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  64726,
+        "remoteAddress":  "127.0.0.1:3000",
+        "state":  5,
+        "pid":  31172,
+        "processName":  "chrome"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  64576,
+        "remoteAddress":  "127.0.0.1:52062",
+        "state":  5,
+        "pid":  14268,
+        "processName":  "Windsurf"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  64573,
+        "remoteAddress":  "127.0.0.1:52061",
+        "state":  5,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  63052,
+        "remoteAddress":  "72.246.151.144:443",
+        "state":  8,
+        "pid":  15808,
+        "processName":  "SearchHost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  63037,
+        "remoteAddress":  "17.248.211.64:443",
+        "state":  8,
+        "pid":  31156,
+        "processName":  "iCloudDrive"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  63034,
+        "remoteAddress":  "40.99.44.2:443",
+        "state":  5,
+        "pid":  15808,
+        "processName":  "SearchHost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  63029,
+        "remoteAddress":  "212.25.69.166:443",
+        "state":  8,
+        "pid":  15808,
+        "processName":  "SearchHost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  63027,
+        "remoteAddress":  "104.77.202.80:443",
+        "state":  8,
+        "pid":  15808,
+        "processName":  "SearchHost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  62326,
+        "remoteAddress":  "127.0.0.1:62325",
+        "state":  5,
+        "pid":  8080,
+        "processName":  "python3.12"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  62325,
+        "remoteAddress":  "127.0.0.1:62326",
+        "state":  5,
+        "pid":  8080,
+        "processName":  "python3.12"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  62324,
+        "remoteAddress":  "127.0.0.1:62323",
+        "state":  5,
+        "pid":  8080,
+        "processName":  "python3.12"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  62323,
+        "remoteAddress":  "127.0.0.1:62324",
+        "state":  5,
+        "pid":  8080,
+        "processName":  "python3.12"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  61752,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  61689,
+        "remoteAddress":  "127.0.0.1:52062",
+        "state":  5,
+        "pid":  14268,
+        "processName":  "Windsurf"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  61686,
+        "remoteAddress":  "127.0.0.1:52061",
+        "state":  5,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  59869,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  17604,
+        "processName":  "logioptionsplus_agent"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  59274,
+        "remoteAddress":  "17.248.211.67:443",
+        "state":  8,
+        "pid":  13768,
+        "processName":  "iCloudCKKS"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  57862,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  7940,
+        "processName":  "AdskLicensingService"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  53676,
+        "remoteAddress":  "2.16.149.4:443",
+        "state":  5,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  53673,
+        "remoteAddress":  "2.16.149.4:443",
+        "state":  5,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  53672,
+        "remoteAddress":  "2.16.149.4:443",
+        "state":  5,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  53671,
+        "remoteAddress":  "2.16.149.29:443",
+        "state":  5,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  53670,
+        "remoteAddress":  "2.16.149.29:443",
+        "state":  5,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  53669,
+        "remoteAddress":  "2.16.149.29:443",
+        "state":  5,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  53668,
+        "remoteAddress":  "2.16.149.29:443",
+        "state":  5,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  53667,
+        "remoteAddress":  "2.16.149.29:443",
+        "state":  5,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  53666,
+        "remoteAddress":  "2.16.149.29:443",
+        "state":  5,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  53665,
+        "remoteAddress":  "2.16.149.4:443",
+        "state":  5,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  53664,
+        "remoteAddress":  "2.16.149.4:443",
+        "state":  5,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  53663,
+        "remoteAddress":  "2.16.149.4:443",
+        "state":  5,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  53662,
+        "remoteAddress":  "2.16.149.29:443",
+        "state":  5,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  53661,
+        "remoteAddress":  "2.16.149.29:443",
+        "state":  5,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  53660,
+        "remoteAddress":  "2.16.149.29:443",
+        "state":  5,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  53659,
+        "remoteAddress":  "2.16.149.29:443",
+        "state":  5,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  53572,
+        "remoteAddress":  "216.239.36.223:443",
+        "state":  8,
+        "pid":  30448,
+        "processName":  "GoogleDriveFS"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  53528,
+        "remoteAddress":  "35.223.238.178:443",
+        "state":  5,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  53450,
+        "remoteAddress":  "20.189.173.28:443",
+        "state":  5,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  53201,
+        "remoteAddress":  "142.250.75.170:443",
+        "state":  8,
+        "pid":  30448,
+        "processName":  "GoogleDriveFS"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  53138,
+        "remoteAddress":  "34.120.195.249:443",
+        "state":  5,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  53134,
+        "remoteAddress":  "142.250.75.42:443",
+        "state":  5,
+        "pid":  30448,
+        "processName":  "GoogleDriveFS"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  53082,
+        "remoteAddress":  "40.99.44.66:443",
+        "state":  5,
+        "pid":  39308,
+        "processName":  "backgroundTaskHost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  52365,
+        "remoteAddress":  "20.189.173.22:443",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  52362,
+        "remoteAddress":  "13.107.246.62:443",
+        "state":  5,
+        "pid":  3784,
+        "processName":  "Code - Insiders"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  52352,
+        "remoteAddress":  "192.168.50.1:46304",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  52338,
+        "remoteAddress":  "192.168.50.1:46304",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  52318,
+        "remoteAddress":  "52.105.29.55:443",
+        "state":  5,
+        "pid":  29344,
+        "processName":  "OneDrive"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  52316,
+        "remoteAddress":  "20.199.120.85:443",
+        "state":  5,
+        "pid":  29344,
+        "processName":  "OneDrive"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  52309,
+        "remoteAddress":  "192.168.50.1:46304",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  52294,
+        "remoteAddress":  "192.168.50.1:49152",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  52287,
+        "remoteAddress":  "35.223.238.178:443",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  52278,
+        "remoteAddress":  "192.168.50.1:46304",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  52258,
+        "remoteAddress":  "160.79.104.10:443",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  52243,
+        "remoteAddress":  "192.168.50.1:49152",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  52232,
+        "remoteAddress":  "35.223.238.178:443",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  52223,
+        "remoteAddress":  "192.168.50.1:49152",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  52218,
+        "remoteAddress":  "192.34.20.166:443",
+        "state":  5,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  52202,
+        "remoteAddress":  "184.105.99.79:443",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52096,
+        "remoteAddress":  "127.0.0.1:52062",
+        "state":  5,
+        "pid":  37856,
+        "processName":  "Windsurf"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52094,
+        "remoteAddress":  "127.0.0.1:52062",
+        "state":  5,
+        "pid":  37856,
+        "processName":  "Windsurf"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52093,
+        "remoteAddress":  "127.0.0.1:52062",
+        "state":  5,
+        "pid":  37856,
+        "processName":  "Windsurf"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  52080,
+        "remoteAddress":  "35.223.238.178:443",
+        "state":  5,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52070,
+        "remoteAddress":  "127.0.0.1:52069",
+        "state":  5,
+        "pid":  14268,
+        "processName":  "Windsurf"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52069,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52069,
+        "remoteAddress":  "127.0.0.1:52070",
+        "state":  5,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52286",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52315",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52251",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52341",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52238",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52354",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52361",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52235",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52349",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52330",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52293",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52323",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52363",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52289",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52343",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52313",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52267",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52290",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52228",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52335",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52225",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52307",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52297",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52292",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52272",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52261",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52301",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52093",
+        "state":  5,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52271",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52298",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52322",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52348",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52284",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52242",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52269",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52270",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52327",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52274",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52250",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52210",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52255",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52334",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:50934",
+        "state":  5,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52366",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52239",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52276",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52355",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52233",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52332",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52245",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52275",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52231",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52373",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52305",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52280",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52328",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52370",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52221",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:61689",
+        "state":  5,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52296",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52375",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52094",
+        "state":  5,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52288",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52266",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52358",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52254",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52273",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52311",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52320",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52247",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52209",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52308",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52317",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52376",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52285",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52253",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52212",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52229",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52312",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52329",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52371",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:51385",
+        "state":  5,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52321",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52347",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52357",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52237",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52302",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52096",
+        "state":  5,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52339",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52304",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52326",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52222",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52208",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52336",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52215",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52306",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52282",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52252",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52353",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52216",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52360",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52346",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52344",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52291",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52356",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:64576",
+        "state":  5,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52374",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52372",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52369",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52359",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52350",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52345",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52342",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52340",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52333",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52331",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52319",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52314",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52299",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52277",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52268",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52257",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52246",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52241",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52240",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52220",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52211",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52062,
+        "remoteAddress":  "127.0.0.1:52206",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52061,
+        "remoteAddress":  "127.0.0.1:64573",
+        "state":  5,
+        "pid":  14268,
+        "processName":  "Windsurf"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52061,
+        "remoteAddress":  "127.0.0.1:61686",
+        "state":  5,
+        "pid":  14268,
+        "processName":  "Windsurf"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52061,
+        "remoteAddress":  "127.0.0.1:52227",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  52061,
+        "remoteAddress":  "127.0.0.1:52226",
+        "state":  11,
+        "pid":  0,
+        "processName":  "Idle"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  51385,
+        "remoteAddress":  "127.0.0.1:52062",
+        "state":  5,
+        "pid":  37856,
+        "processName":  "Windsurf"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  50934,
+        "remoteAddress":  "127.0.0.1:52062",
+        "state":  5,
+        "pid":  39124,
+        "processName":  "language_server_windows_x64"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  50923,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  7668,
+        "processName":  "ArmouryCrateControlInterface"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  50678,
+        "remoteAddress":  "173.194.76.188:5228",
+        "state":  5,
+        "pid":  31172,
+        "processName":  "chrome"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  50662,
+        "remoteAddress":  "17.248.211.67:443",
+        "state":  8,
+        "pid":  28100,
+        "processName":  "iCloudHome"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  50659,
+        "remoteAddress":  "20.199.120.182:443",
+        "state":  5,
+        "pid":  7996,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  50653,
+        "remoteAddress":  "142.250.75.106:443",
+        "state":  5,
+        "pid":  30448,
+        "processName":  "GoogleDriveFS"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  50648,
+        "remoteAddress":  "17.248.209.68:443",
+        "state":  8,
+        "pid":  28100,
+        "processName":  "iCloudHome"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  50646,
+        "remoteAddress":  "17.57.146.26:5223",
+        "state":  5,
+        "pid":  23848,
+        "processName":  "APSDaemon"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  50559,
+        "remoteAddress":  "127.0.0.1:50558",
+        "state":  5,
+        "pid":  21116,
+        "processName":  "qbittorrent"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  50558,
+        "remoteAddress":  "127.0.0.1:50559",
+        "state":  5,
+        "pid":  21116,
+        "processName":  "qbittorrent"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  50071,
+        "remoteAddress":  "127.0.0.1:1844",
+        "state":  5,
+        "pid":  29952,
+        "processName":  "node20"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  50063,
+        "remoteAddress":  "127.0.0.1:5354",
+        "state":  5,
+        "pid":  33272,
+        "processName":  "AppleMobileDeviceProcess"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  50062,
+        "remoteAddress":  "127.0.0.1:5354",
+        "state":  5,
+        "pid":  33272,
+        "processName":  "AppleMobileDeviceProcess"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  49997,
+        "remoteAddress":  "127.0.0.1:27015",
+        "state":  5,
+        "pid":  18516,
+        "processName":  "StreamDeck"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  49947,
+        "remoteAddress":  "127.0.0.1:28196",
+        "state":  5,
+        "pid":  29952,
+        "processName":  "node20"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  49945,
+        "remoteAddress":  "127.0.0.1:28196",
+        "state":  5,
+        "pid":  29888,
+        "processName":  "node20"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  49937,
+        "remoteAddress":  "127.0.0.1:28196",
+        "state":  5,
+        "pid":  18516,
+        "processName":  "StreamDeck"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  49927,
+        "remoteAddress":  "127.0.0.1:5354",
+        "state":  5,
+        "pid":  18516,
+        "processName":  "StreamDeck"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  49904,
+        "remoteAddress":  "17.248.211.71:443",
+        "state":  8,
+        "pid":  31156,
+        "processName":  "iCloudDrive"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  49895,
+        "remoteAddress":  "127.0.0.1:1042",
+        "state":  5,
+        "pid":  22940,
+        "processName":  "asus_framework"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  49882,
+        "remoteAddress":  "127.0.0.1:1042",
+        "state":  5,
+        "pid":  6204,
+        "processName":  "AcPowerNotification"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  49874,
+        "remoteAddress":  "127.0.0.1:9013",
+        "state":  5,
+        "pid":  6184,
+        "processName":  "asus_framework"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  49873,
+        "remoteAddress":  "127.0.0.1:1042",
+        "state":  5,
+        "pid":  6184,
+        "processName":  "asus_framework"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  49872,
+        "remoteAddress":  "127.0.0.1:9013",
+        "state":  5,
+        "pid":  12060,
+        "processName":  "asus_framework"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  49871,
+        "remoteAddress":  "127.0.0.1:1042",
+        "state":  5,
+        "pid":  12060,
+        "processName":  "asus_framework"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  49860,
+        "remoteAddress":  "127.0.0.1:1042",
+        "state":  5,
+        "pid":  5464,
+        "processName":  "ArmourySocketServer"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  49810,
+        "remoteAddress":  "127.0.0.1:9012",
+        "state":  5,
+        "pid":  11700,
+        "processName":  "ArmouryCrate.UserSessionHelper"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  49804,
+        "remoteAddress":  "127.0.0.1:6850",
+        "state":  5,
+        "pid":  8052,
+        "processName":  "LightingService"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  49778,
+        "remoteAddress":  "127.0.0.1:6850",
+        "state":  5,
+        "pid":  8052,
+        "processName":  "LightingService"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  49693,
+        "remoteAddress":  "127.0.0.1:17532",
+        "state":  5,
+        "pid":  11700,
+        "processName":  "ArmouryCrate.UserSessionHelper"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49690,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  1692,
+        "processName":  "services"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  49689,
+        "remoteAddress":  "127.0.0.1:13030",
+        "state":  5,
+        "pid":  7896,
+        "processName":  "ROGLiveService"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49671,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  2456,
+        "processName":  "spoolsv"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49667,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  3512,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49666,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  2648,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49665,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  1600,
+        "processName":  "wininit"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  49664,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  1804,
+        "processName":  "lsass"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  49272,
+        "remoteAddress":  "17.248.211.69:443",
+        "state":  8,
+        "pid":  27856,
+        "processName":  "iCloudPhotos"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  45777,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  7872,
+        "processName":  "app_updater"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  38895,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  21116,
+        "processName":  "qbittorrent"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  38895,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  21116,
+        "processName":  "qbittorrent"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  28196,
+        "remoteAddress":  "127.0.0.1:49947",
+        "state":  5,
+        "pid":  18516,
+        "processName":  "StreamDeck"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  28196,
+        "remoteAddress":  "127.0.0.1:49945",
+        "state":  5,
+        "pid":  18516,
+        "processName":  "StreamDeck"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  28196,
+        "remoteAddress":  "127.0.0.1:49937",
+        "state":  5,
+        "pid":  18516,
+        "processName":  "StreamDeck"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  28196,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  18516,
+        "processName":  "StreamDeck"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  27339,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  4,
+        "processName":  "System"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  27015,
+        "remoteAddress":  "127.0.0.1:49997",
+        "state":  5,
+        "pid":  33272,
+        "processName":  "AppleMobileDeviceProcess"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  27015,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  33272,
+        "processName":  "AppleMobileDeviceProcess"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  24830,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  7652,
+        "processName":  "AsusSoftwareManager"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  22112,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  7896,
+        "processName":  "ROGLiveService"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  19292,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  31748,
+        "processName":  "AdobeCollabSync"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  19010,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  17604,
+        "processName":  "logioptionsplus_agent"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  17945,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  11700,
+        "processName":  "ArmouryCrate.UserSessionHelper"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  17532,
+        "remoteAddress":  "127.0.0.1:49693",
+        "state":  5,
+        "pid":  7676,
+        "processName":  "ArmouryCrate.Service"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  17532,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  7676,
+        "processName":  "ArmouryCrate.Service"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  13032,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  11700,
+        "processName":  "ArmouryCrate.UserSessionHelper"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  13031,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  11700,
+        "processName":  "ArmouryCrate.UserSessionHelper"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  13030,
+        "remoteAddress":  "127.0.0.1:49689",
+        "state":  5,
+        "pid":  7896,
+        "processName":  "ROGLiveService"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  13030,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  7896,
+        "processName":  "ROGLiveService"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  13010,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  7676,
+        "processName":  "ArmouryCrate.Service"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  9013,
+        "remoteAddress":  "127.0.0.1:49874",
+        "state":  5,
+        "pid":  5464,
+        "processName":  "ArmourySocketServer"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  9013,
+        "remoteAddress":  "127.0.0.1:49872",
+        "state":  5,
+        "pid":  5464,
+        "processName":  "ArmourySocketServer"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  9013,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  5464,
+        "processName":  "ArmourySocketServer"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  9012,
+        "remoteAddress":  "127.0.0.1:49810",
+        "state":  5,
+        "pid":  5464,
+        "processName":  "ArmourySocketServer"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  9012,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  5464,
+        "processName":  "ArmourySocketServer"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  8024,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  4396,
+        "processName":  "embytray"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  7778,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  7668,
+        "processName":  "ArmouryCrateControlInterface"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  6850,
+        "remoteAddress":  "127.0.0.1:49804",
+        "state":  5,
+        "pid":  22368,
+        "processName":  "AacAmbientLighting"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  6850,
+        "remoteAddress":  "127.0.0.1:49778",
+        "state":  5,
+        "pid":  22368,
+        "processName":  "AacAmbientLighting"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  6850,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  22368,
+        "processName":  "AacAmbientLighting"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  5354,
+        "remoteAddress":  "127.0.0.1:50062",
+        "state":  5,
+        "pid":  7684,
+        "processName":  "mDNSResponder"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  5354,
+        "remoteAddress":  "127.0.0.1:49927",
+        "state":  5,
+        "pid":  7684,
+        "processName":  "mDNSResponder"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  5354,
+        "remoteAddress":  "127.0.0.1:50063",
+        "state":  5,
+        "pid":  7684,
+        "processName":  "mDNSResponder"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  5354,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  7684,
+        "processName":  "mDNSResponder"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  5040,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  6852,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  3000,
+        "remoteAddress":  "127.0.0.1:64726",
+        "state":  5,
+        "pid":  9632,
+        "processName":  "node"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  3000,
+        "remoteAddress":  "127.0.0.1:65025",
+        "state":  5,
+        "pid":  9632,
+        "processName":  "node"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  3000,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  9632,
+        "processName":  "node"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  1844,
+        "remoteAddress":  "127.0.0.1:50071",
+        "state":  5,
+        "pid":  32596,
+        "processName":  "ElgatoAudioControlServer"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  1043,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  6596,
+        "processName":  "asus_framework"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  1042,
+        "remoteAddress":  "127.0.0.1:49895",
+        "state":  5,
+        "pid":  6596,
+        "processName":  "asus_framework"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  1042,
+        "remoteAddress":  "127.0.0.1:49860",
+        "state":  5,
+        "pid":  6596,
+        "processName":  "asus_framework"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  1042,
+        "remoteAddress":  "127.0.0.1:49871",
+        "state":  5,
+        "pid":  6596,
+        "processName":  "asus_framework"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  1042,
+        "remoteAddress":  "127.0.0.1:49882",
+        "state":  5,
+        "pid":  6596,
+        "processName":  "asus_framework"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  1042,
+        "remoteAddress":  "127.0.0.1:49873",
+        "state":  5,
+        "pid":  6596,
+        "processName":  "asus_framework"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "127.0.0.1",
+        "port":  1042,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  6596,
+        "processName":  "asus_framework"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "192.168.50.162",
+        "port":  139,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  4,
+        "processName":  "System"
+    },
+    {
+        "protocol":  "TCP",
+        "localAddress":  "0.0.0.0",
+        "port":  135,
+        "remoteAddress":  "0.0.0.0:0",
+        "state":  2,
+        "pid":  1220,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "::",
+        "port":  64259,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  3468,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "::",
+        "port":  57568,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  5008,
+        "processName":  "dasHost"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "::",
+        "port":  57170,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  20728,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "::",
+        "port":  49669,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  7684,
+        "processName":  "mDNSResponder"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "::1",
+        "port":  49645,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  5336,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "fe80::7010:4532:7461:897b%4",
+        "port":  49644,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  5336,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "fe80::7010:4532:7461:897b%4",
+        "port":  38895,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  21116,
+        "processName":  "qbittorrent"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "::1",
+        "port":  38895,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  21116,
+        "processName":  "qbittorrent"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "::",
+        "port":  7359,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  32808,
+        "processName":  "EmbyServer"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "::",
+        "port":  6771,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  21116,
+        "processName":  "qbittorrent"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "::",
+        "port":  5355,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  3468,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "::1",
+        "port":  5353,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  7684,
+        "processName":  "mDNSResponder"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "::",
+        "port":  5353,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  31172,
+        "processName":  "chrome"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "::",
+        "port":  3702,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  5008,
+        "processName":  "dasHost"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "fe80::7010:4532:7461:897b%4",
+        "port":  1900,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  5336,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "::1",
+        "port":  1900,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  5336,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "::",
+        "port":  123,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  28072,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "127.0.0.1",
+        "port":  64111,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  13768,
+        "processName":  "iCloudCKKS"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "127.0.0.1",
+        "port":  64110,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  13768,
+        "processName":  "iCloudCKKS"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "127.0.0.1",
+        "port":  64109,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  28100,
+        "processName":  "iCloudHome"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "127.0.0.1",
+        "port":  64108,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  28100,
+        "processName":  "iCloudHome"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "127.0.0.1",
+        "port":  63077,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  23848,
+        "processName":  "APSDaemon"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "127.0.0.1",
+        "port":  63076,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  23848,
+        "processName":  "APSDaemon"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "127.0.0.1",
+        "port":  61490,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  27856,
+        "processName":  "iCloudPhotos"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "127.0.0.1",
+        "port":  61489,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  27856,
+        "processName":  "iCloudPhotos"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "192.168.50.162",
+        "port":  60583,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  21116,
+        "processName":  "qbittorrent"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "192.168.50.162",
+        "port":  60582,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  21116,
+        "processName":  "qbittorrent"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "0.0.0.0",
+        "port":  59871,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  17604,
+        "processName":  "logioptionsplus_agent"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "0.0.0.0",
+        "port":  59870,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  17604,
+        "processName":  "logioptionsplus_agent"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "127.0.0.1",
+        "port":  58860,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  13408,
+        "processName":  "nvcontainer"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "127.0.0.1",
+        "port":  58016,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  33272,
+        "processName":  "AppleMobileDeviceProcess"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "127.0.0.1",
+        "port":  58015,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  33272,
+        "processName":  "AppleMobileDeviceProcess"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "0.0.0.0",
+        "port":  57567,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  5008,
+        "processName":  "dasHost"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "0.0.0.0",
+        "port":  57169,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  20728,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "127.0.0.1",
+        "port":  55392,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  32808,
+        "processName":  "EmbyServer"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "192.168.50.162",
+        "port":  55391,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  32808,
+        "processName":  "EmbyServer"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "0.0.0.0",
+        "port":  55390,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  32808,
+        "processName":  "EmbyServer"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "0.0.0.0",
+        "port":  53721,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  31172,
+        "processName":  "chrome"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "127.0.0.1",
+        "port":  51417,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  31156,
+        "processName":  "iCloudDrive"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "127.0.0.1",
+        "port":  51416,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  31156,
+        "processName":  "iCloudDrive"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "127.0.0.1",
+        "port":  49670,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  7848,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "0.0.0.0",
+        "port":  49668,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  7684,
+        "processName":  "mDNSResponder"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "127.0.0.1",
+        "port":  49647,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  5336,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "192.168.50.162",
+        "port":  49646,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  5336,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "192.168.50.162",
+        "port":  38895,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  21116,
+        "processName":  "qbittorrent"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "127.0.0.1",
+        "port":  38895,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  21116,
+        "processName":  "qbittorrent"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "127.0.0.1",
+        "port":  10010,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  15844,
+        "processName":  "NVIDIA Overlay"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "0.0.0.0",
+        "port":  6771,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  21116,
+        "processName":  "qbittorrent"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "0.0.0.0",
+        "port":  5355,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  3468,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "192.168.50.162",
+        "port":  5353,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  7684,
+        "processName":  "mDNSResponder"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "0.0.0.0",
+        "port":  5353,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  31172,
+        "processName":  "chrome"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "0.0.0.0",
+        "port":  5050,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  6852,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "0.0.0.0",
+        "port":  3702,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  20728,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "192.168.50.162",
+        "port":  1900,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  21116,
+        "processName":  "qbittorrent"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "127.0.0.1",
+        "port":  1900,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  5336,
+        "processName":  "svchost"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "0.0.0.0",
+        "port":  1900,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  32808,
+        "processName":  "EmbyServer"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "192.168.50.162",
+        "port":  138,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  4,
+        "processName":  "System"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "192.168.50.162",
+        "port":  137,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  4,
+        "processName":  "System"
+    },
+    {
+        "protocol":  "UDP",
+        "localAddress":  "0.0.0.0",
+        "port":  123,
+        "remoteAddress":  "*:*",
+        "state":  "",
+        "pid":  28072,
+        "processName":  "svchost"
+    }
+]

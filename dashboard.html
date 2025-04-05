@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port Monitor Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Port Monitor Dashboard</h1>
+            <button id="refresh-btn" class="btn primary">Refresh</button>
+        </header>
+        
+        <main>
+            <div class="stats-container">
+                <div class="stat-card">
+                    <h3>Total Active Ports</h3>
+                    <p id="total-ports">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>TCP Connections</h3>
+                    <p id="tcp-count">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>UDP Connections</h3>
+                    <p id="udp-count">0</p>
+                </div>
+            </div>
+
+            <div class="filter-container">
+                <input type="text" id="search-input" placeholder="Search by port, process, or address...">
+                <select id="protocol-filter">
+                    <option value="all">All Protocols</option>
+                    <option value="tcp">TCP</option>
+                    <option value="udp">UDP</option>
+                </select>
+                <select id="sort-by">
+                    <option value="port">Sort by Port</option>
+                    <option value="process">Sort by Process</option>
+                    <option value="state">Sort by State</option>
+                </select>
+            </div>
+
+            <div class="table-container">
+                <table id="ports-table">
+                    <thead>
+                        <tr>
+                            <th>Protocol</th>
+                            <th>Local Address</th>
+                            <th>Port</th>
+                            <th>Remote Address</th>
+                            <th>State</th>
+                            <th>PID</th>
+                            <th>Process</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ports-list">
+                        <!-- Port data will be inserted here -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="loading-overlay">
+                <div class="spinner"></div>
+                <p>Loading port information...</p>
+            </div>
+        </main>
+
+        <div id="notification" class="notification">
+            <p id="notification-message"></p>
+            <button id="close-notification">×</button>
+        </div>
+
+        <div id="confirmation-modal" class="modal">
+            <div class="modal-content">
+                <h2>Confirm Action</h2>
+                <p id="confirmation-message"></p>
+                <div class="modal-buttons">
+                    <button id="cancel-action" class="btn secondary">Cancel</button>
+                    <button id="confirm-action" class="btn danger">Confirm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // DOM Elements
+        const refreshBtn = document.getElementById('refresh-btn');
+        const portsTable = document.getElementById('ports-table');
+        const portsList = document.getElementById('ports-list');
+        const totalPortsElement = document.getElementById('total-ports');
+        const tcpCountElement = document.getElementById('tcp-count');
+        const udpCountElement = document.getElementById('udp-count');
+        const searchInput = document.getElementById('search-input');
+        const protocolFilter = document.getElementById('protocol-filter');
+        const sortBySelect = document.getElementById('sort-by');
+        const loadingOverlay = document.getElementById('loading-overlay');
+        const notification = document.getElementById('notification');
+        const notificationMessage = document.getElementById('notification-message');
+        const closeNotificationBtn = document.getElementById('close-notification');
+        const confirmationModal = document.getElementById('confirmation-modal');
+        const confirmationMessage = document.getElementById('confirmation-message');
+        const cancelActionBtn = document.getElementById('cancel-action');
+        const confirmActionBtn = document.getElementById('confirm-action');
+
+        // State
+        let portsData = [];
+        let filteredData = [];
+        let currentPidToKill = null;
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            loadPortsData();
+            setupEventListeners();
+        });
+
+        // Load Ports Data
+        async function loadPortsData() {
+            showLoading();
+            
+            try {
+                // Try to load from API endpoint first (when using the Node.js server)
+                const response = await fetch('/api/ports');
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                portsData = await response.json();
+                
+                // Update UI
+                updateStats();
+                filterData();
+                hideLoading();
+                showNotification('Port data loaded successfully', 'success');
+            } catch (error) {
+                console.error('Error loading ports data:', error);
+                
+                try {
+                    // Fallback to direct file loading
+                    const fileResponse = await fetch('ports-data.json');
+                    
+                    if (!fileResponse.ok) {
+                        throw new Error(`HTTP error! status: ${fileResponse.status}`);
+                    }
+                    
+                    portsData = await fileResponse.json();
+                    
+                    // Update UI
+                    updateStats();
+                    filterData();
+                    hideLoading();
+                    showNotification('Port data loaded successfully', 'success');
+                } catch (fileError) {
+                    console.error('Error loading ports data from file:', fileError);
+                    hideLoading();
+                    
+                    // Show a more helpful error message
+                    showNotification(`
+                    Failed to load port data. This may be due to CORS restrictions when opening the file directly.
+                    <br><br>
+                    Try one of these solutions:
+                    <br>
+                    1. Use a local web server to serve the files
+                    <br>
+                    2. Open this file using the "Live Server" extension in VS Code
+                    <br>
+                    3. Run the PowerShell script again and refresh the page
+                `, 'error', 15000);
+                }
+            }
+        }
+
+        // Event Listeners
+        function setupEventListeners() {
+            refreshBtn.addEventListener('click', () => {
+                loadPortsData();
+            });
+            searchInput.addEventListener('input', filterData);
+            protocolFilter.addEventListener('change', filterData);
+            sortBySelect.addEventListener('change', filterData);
+            closeNotificationBtn.addEventListener('click', hideNotification);
+            cancelActionBtn.addEventListener('click', hideConfirmationModal);
+            confirmActionBtn.addEventListener('click', confirmKillProcess);
+        }
+
+        // Update Statistics
+        function updateStats() {
+            totalPortsElement.textContent = portsData.length;
+            tcpCountElement.textContent = portsData.filter(port => port.protocol.toLowerCase() === 'tcp').length;
+            udpCountElement.textContent = portsData.filter(port => port.protocol.toLowerCase() === 'udp').length;
+        }
+
+        // Filter and Sort Data
+        function filterData() {
+            const searchTerm = searchInput.value.toLowerCase();
+            const protocolValue = protocolFilter.value;
+            const sortBy = sortBySelect.value;
+            
+            // Filter
+            filteredData = portsData.filter(port => {
+                // Protocol filter
+                if (protocolValue !== 'all' && port.protocol.toLowerCase() !== protocolValue) {
+                    return false;
+                }
+                
+                // Search term
+                return (
+                    port.port.toString().includes(searchTerm) ||
+                    port.processName.toLowerCase().includes(searchTerm) ||
+                    port.localAddress.toLowerCase().includes(searchTerm) ||
+                    port.remoteAddress.toLowerCase().includes(searchTerm) ||
+                    (port.state && port.state.toLowerCase().includes(searchTerm)) ||
+                    port.pid.toString().includes(searchTerm)
+                );
+            });
+            
+            // Sort
+            filteredData.sort((a, b) => {
+                switch (sortBy) {
+                    case 'port':
+                        return a.port - b.port;
+                    case 'process':
+                        return a.processName.localeCompare(b.processName);
+                    case 'state':
+                        return (a.state || '').localeCompare(b.state || '');
+                    default:
+                        return 0;
+                }
+            });
+            
+            renderPortsList();
+        }
+
+        // Render Ports List
+        function renderPortsList() {
+            portsList.innerHTML = '';
+            
+            if (filteredData.length === 0) {
+                portsList.innerHTML = `
+                    <tr>
+                        <td colspan="8" class="empty-state">
+                            <p>No ports found matching your criteria</p>
+                        </td>
+                    </tr>
+                `;
+                return;
+            }
+            
+            filteredData.forEach(port => {
+                const row = document.createElement('tr');
+                
+                row.innerHTML = `
+                    <td><span class="protocol-badge ${port.protocol.toLowerCase()}">${port.protocol}</span></td>
+                    <td>${port.localAddress}</td>
+                    <td>${port.port}</td>
+                    <td>${port.remoteAddress}</td>
+                    <td>${port.state ? `<span class="state-badge ${port.state.toLowerCase()}">${port.state}</span>` : '-'}</td>
+                    <td>${port.pid}</td>
+                    <td>${port.processName}</td>
+                    <td>
+                        <button class="action-btn kill-btn" data-pid="${port.pid}">Kill Process</button>
+                        <button class="action-btn info-btn" data-pid="${port.pid}">Details</button>
+                    </td>
+                `;
+                
+                portsList.appendChild(row);
+            });
+            
+            // Add event listeners to buttons
+            document.querySelectorAll('.kill-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const pid = btn.getAttribute('data-pid');
+                    const process = portsData.find(p => p.pid.toString() === pid);
+                    showKillConfirmation(process);
+                });
+            });
+            
+            document.querySelectorAll('.info-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const pid = btn.getAttribute('data-pid');
+                    const process = portsData.find(p => p.pid.toString() === pid);
+                    showProcessDetails(process);
+                });
+            });
+        }
+
+        // Show Kill Confirmation
+        function showKillConfirmation(process) {
+            confirmationMessage.textContent = `Are you sure you want to kill the process "${process.processName}" (PID: ${process.pid}) using port ${process.port}?`;
+            currentPidToKill = process.pid;
+            confirmationModal.style.display = 'flex';
+        }
+
+        // Confirm Kill Process
+        async function confirmKillProcess() {
+            if (!currentPidToKill) return;
+            
+            hideConfirmationModal();
+            showLoading();
+            
+            try {
+                // Try to use the API endpoint first (when using the Node.js server)
+                const response = await fetch(`/api/kill/${currentPidToKill}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const result = await response.json();
+                
+                // Refresh the data
+                await loadPortsData();
+                
+                hideLoading();
+                showNotification(`Process with PID ${currentPidToKill} was successfully terminated`, 'success');
+            } catch (error) {
+                console.error('Error killing process:', error);
+                hideLoading();
+                
+                // Fallback to manual instructions
+                showNotification(
+                    `To kill process with PID ${currentPidToKill}, run this command in PowerShell:
+                    <br><code>./kill-process.ps1 -ProcessId ${currentPidToKill}</code>
+                    <br>Then run <code>./get-ports.ps1</code> and refresh this page to update the data.`, 
+                    'info',
+                    15000 // Show for 15 seconds
+                );
+            }
+            
+            currentPidToKill = null;
+        }
+
+        // Show Process Details
+        function showProcessDetails(process) {
+            showNotification(`
+                <strong>Process Details:</strong><br>
+                Name: ${process.processName}<br>
+                PID: ${process.pid}<br>
+                Protocol: ${process.protocol}<br>
+                Port: ${process.port}<br>
+                Local Address: ${process.localAddress}<br>
+                Remote Address: ${process.remoteAddress}<br>
+                State: ${process.state || 'N/A'}
+            `, 'info', 10000);
+        }
+
+        // Show Loading Overlay
+        function showLoading() {
+            loadingOverlay.style.display = 'flex';
+        }
+
+        // Hide Loading Overlay
+        function hideLoading() {
+            loadingOverlay.style.display = 'none';
+        }
+
+        // Show Notification
+        function showNotification(message, type = 'info', duration = 5000) {
+            notificationMessage.innerHTML = message;
+            notification.className = 'notification show';
+            
+            if (type) {
+                notification.classList.add(type);
+            }
+            
+            // Auto-hide after specified duration
+            setTimeout(hideNotification, duration);
+        }
+
+        // Hide Notification
+        function hideNotification() {
+            notification.className = 'notification';
+        }
+
+        // Show Confirmation Modal
+        function showConfirmationModal() {
+            confirmationModal.style.display = 'flex';
+        }
+
+        // Hide Confirmation Modal
+        function hideConfirmationModal() {
+            confirmationModal.style.display = 'none';
+        }
+    </script>
+</body>
+</html>
