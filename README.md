@@ -1,120 +1,140 @@
 # Port Monitor Dashboard
 
-A modern, web-based dashboard for monitoring and managing active network ports on your system. This tool helps you track, view, and kill processes that are using network ports, making it easier to manage port conflicts during software testing and development.
+A secure, production-ready web application for monitoring and managing network ports and processes.
 
 ## Features
 
-- 🔍 **Real Port Monitoring**: View actual active TCP and UDP connections on your system
-- 🔎 **Detailed Information**: See local/remote addresses, ports, states, PIDs, and process names
-- 🔄 **Filtering & Sorting**: Filter by protocol, search by any field, and sort results
-- 🚫 **Process Management**: Kill processes directly from the dashboard
-- 📊 **Statistics**: View counts of total ports, TCP, and UDP connections
-- 🎨 **Modern UI**: Clean, responsive design with nice color accents
+- Real-time port monitoring
+- Process management
+- Secure process termination
+- Filtering and sorting capabilities
+- Rate limiting and security measures
+- Production-ready logging
+- Redis-based caching and session management
 
-## Requirements
+## Prerequisites
 
-- Windows PowerShell 5.1 or higher
-- Modern web browser (Chrome, Firefox, Edge, etc.)
+- Node.js (v14 or higher)
+- Redis Server
+- PowerShell 5.1 or higher
+- Windows OS (for PowerShell scripts)
 
-## Usage Methods
+## Installation
 
-You can use the Port Monitor Dashboard in three different ways:
+1. Clone the repository
+2. Install dependencies:
+```bash
+npm install
+```
+3. Copy the environment configuration:
+```bash
+copy .env.example .env
+```
+4. Update the `.env` file with your configuration
 
-### Method 1: Node.js Server (Recommended)
+## Configuration
 
-This method provides the best experience with full functionality:
+### Environment Variables
 
-1. **Start the Node.js Server**:
-   - Open PowerShell as Administrator
-   - Navigate to the project directory
-   - Run the script:
-     ```
-     .\start-node-server.ps1
-     ```
-   - This will automatically find your Node.js installation, install dependencies, and start the server
-   - The dashboard will be available at http://localhost:3000
+- `PORT`: Server port (default: 3000)
+- `NODE_ENV`: Environment (production/development)
+- `SESSION_SECRET`: Secret for session encryption
+- `CORS_ORIGIN`: Allowed CORS origin
+- `REDIS_HOST`: Redis server host
+- `REDIS_PORT`: Redis server port
+- `REDIS_PASSWORD`: Redis server password
+- `LOG_LEVEL`: Logging level (info/warn/error)
+- `LOG_FILE`: Log file path
+- `RATE_LIMIT_WINDOW_MS`: Rate limiting window
+- `RATE_LIMIT_MAX_REQUESTS`: Maximum requests per window
 
-2. **Use the Dashboard**:
-   - The dashboard will automatically refresh port data when you click the Refresh button
-   - When you click "Kill Process", it will automatically kill the process and refresh the data
-   - No manual PowerShell commands needed!
+### Security Features
 
-### Method 2: Quick Start (PowerShell Only)
+- Helmet.js for security headers
+- CORS protection
+- Rate limiting
+- Session management
+- Input validation
+- Process access control
+- Structured logging
 
-1. **Run the Open Dashboard Script**:
-   - Open PowerShell as Administrator
-   - Navigate to the project directory
-   - Run the script:
-     ```
-     .\open-dashboard.ps1
-     ```
-   - This will automatically generate port data and open the dashboard in your browser
+## Directory Structure
 
-### Manual Steps
+```
+.
+├── config/
+│   ├── logger.js
+│   └── security.js
+├── logs/
+├── public/
+│   ├── dashboard.html
+│   ├── index.html
+│   ├── script.js
+│   └── styles.css
+├── .env
+├── server.js
+├── get-ports.ps1
+└── kill-process.ps1
+```
 
-1. **Generate Port Data**:
-   - Open PowerShell as Administrator
-   - Navigate to the project directory
-   - Run the PowerShell script to generate port data:
-     ```
-     .\get-ports.ps1
-     ```
-   - This will create a `ports-data.json` file with information about all active ports
+## Running in Production
 
-2. **View the Dashboard**:
-   - Open `dashboard.html` in your web browser
-   - The dashboard will load and display the actual port data from your system
-   - Use the search box and filters to find specific ports or processes
+1. Set up Redis:
+```bash
+# Install Redis on Windows or use a cloud service
+```
 
-3. **Kill a Process**:
-   - When you click "Kill Process" in the dashboard, you'll see instructions
-   - Run the provided PowerShell command to kill the process:
-     ```
-     .\kill-process.ps1 -ProcessId <PID>
-     ```
-   - After killing a process, run `.\get-ports.ps1` again to update the data
-   - Refresh the dashboard to see the updated port information
+2. Configure environment:
+```bash
+# Set NODE_ENV=production in .env
+# Configure other environment variables
+```
 
-4. **Refresh Port Data**:
-   - To get the latest port information, run `.\get-ports.ps1` again
-   - Refresh the dashboard in your browser
+3. Start the server:
+```bash
+npm start
+```
 
-### Method 3: Manual Setup
+## Monitoring and Maintenance
 
-If you prefer to set things up manually:
+### Logging
 
-1. **Generate Port Data**:
-   - Run `.\get-ports.ps1` to generate the ports-data.json file
+- Application logs are stored in `./logs/app.log`
+- Use the configured log level to control verbosity
+- Logs are rotated automatically (5MB max size, 5 files kept)
 
-2. **Start a Web Server**:
-   - Use any web server to serve the files (Python, Node.js, etc.)
-   - For example, with Python: `python -m http.server 8000`
+### Health Checks
 
-3. **Open the Dashboard**:
-   - Navigate to the appropriate URL in your browser
-   - For example: http://localhost:8000/dashboard.html
+- Access `/health` endpoint to check server status
+- Monitor Redis connection status
+- Check process access permissions
 
-### Troubleshooting
+### Security Considerations
 
-If you encounter CORS errors when opening the dashboard directly:
-- Use a local web server to serve the files
-- Use the "Live Server" extension in VS Code
-- Or simply use the `start-node-server.ps1` script which handles this for you
+- Keep Redis password secure
+- Regularly update dependencies
+- Monitor rate limiting effectiveness
+- Review process termination logs
+- Maintain PowerShell execution policies
 
-### Node.js Issues
+## Error Handling
 
-If you're having issues with Node.js:
+The application includes comprehensive error handling:
 
-1. **Path Issues**: If Node.js is installed but not in your PATH, the `start-node-server.ps1` script will attempt to find it automatically.
+- API endpoint validation
+- Process termination safety checks
+- Redis connection monitoring
+- PowerShell script execution handling
+- Graceful server shutdown
 
-2. **Installation**: If Node.js is not installed, you can download it from [nodejs.org](https://nodejs.org/).
+## Contributing
 
-3. **Dependencies**: The script will automatically install the required dependencies (express and cors).
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
 
 ## License
 
-MIT
-
----
-
-Made with ❤️ for developers who hate port conflicts
+MIT License - see LICENSE file for details
